@@ -189,7 +189,7 @@ let weatherBarFun=function(){
 let pathname = location.pathname;
 
 
-if(!( location.href.match("weather") || location.href.match("set"))){
+if(!( pathname.match("weather") || pathname.match("set"))){
     weatherBarFun();
           
   }; 
