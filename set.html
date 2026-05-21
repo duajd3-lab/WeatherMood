@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,23 @@
     <script defer src="./js/set.js"></script>
     <script defer src="./js/common.js"></script>
 </head>
+
 <body class="ani">
-  <article class="bg">
+    <article class="bg">
         <div class="phone">
             <div class="top">
                 <div></div>
                 <span class="ic"> signal_cellular_alt </span>
                 LTE
                 <span class="ic"> battery_android_frame_full </span>
-                
-            </div>    
+
+            </div>
         </div>
         <div class="bg-con">
             <h1>WEATHER MOOD</h1>
             <div class="object">
                 <div class="tool">
-                    <h2>Tool</h2>
+                    <h2>Tool & Skill Stack</h2>
                     <ul>
                         <li>
                             <img src="./image/bg/figma.png" alt="figma">
@@ -34,12 +36,13 @@
                             <p>VScode</p>
                         </li>
                     </ul>
-                    <div>                        
+                    <div>
                         <span>Ps</span>
                         <span>Ai</span>
-                        <span>🍌</span>                        
-                        <span>{Json}</span>
-                        <span>{API}</span>                    
+                        <span>🍌</span><br />
+                        <span>JavaScript</span>
+                        <span>Swiper.js</span>
+                        <span>OpenAPI</span>
                     </div>
                 </div>
                 <p>
@@ -54,86 +57,87 @@
             </div>
         </div>
         <div class="app">
-          <div class="setting">
-            <div class="txt">
-              <span class="material-symbols-outlined">
-                  arrow_back
-              </span>
-              <h2>설정</h2>
+            <div class="setting">
+                <div class="txt">
+                    <span class="material-symbols-outlined">
+                        arrow_back
+                    </span>
+                    <h2>설정</h2>
+                </div>
+                <div class="set">
+                    <div class="genderSelect">
+                        <h3>캐릭터 성별</h3>
+                        <div class="genderOption">
+                            <label>
+                                <input type="radio" name="setGender" value="m">
+                                <span>남성</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="setGender" value="w">
+                                <span>여성</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="temperatureSelect">
+                        <h3>온도 단위</h3>
+                        <div class="temperatureOption">
+                            <label>
+                                <input type="radio" name="temperature" value="c" checked>
+                                <span>섭씨(°C)</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="temperature" value="f">
+                                <span>화씨(°F)</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="languageSelect">
+                        <h3>언어</h3>
+                        <div class="languageOption">
+                            <label>
+                                <input type="radio" name="language" value="ko" checked>
+                                <span>한국어</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="language" value="en">
+                                <span>English</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="bgcSelect">
+                        <h3>배경</h3>
+                        <div class="bgcOption">
+                            <label>
+                                <input type="radio" name="bgc" value="gray">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="bgc" value="green" checked>
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="bgc" value="blue">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="bgc" value="purple">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="bgc" value="yellow">
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="setBtn">
+                    <button>저장</button>
+                </div>
             </div>
-            <div class="set">
-                <div class="genderSelect">
-                  <h3>캐릭터 성별</h3>
-                  <div class="genderOption">
-                      <label>
-                        <input type="radio" name="setGender" value="m" >
-                        <span>남성</span>
-                      </label>
-                      <label>
-                        <input type="radio" name="setGender" value="w" >
-                        <span>여성</span>
-                      </label>
-                  </div>
-                </div>
-                <div class="temperatureSelect">
-                  <h3>온도 단위</h3>
-                  <div class="temperatureOption">
-                      <label>
-                        <input type="radio" name="temperature" value="c" checked>
-                        <span>섭씨(°C)</span>
-                      </label>
-                      <label>
-                        <input type="radio" name="temperature" value="f" >
-                        <span>화씨(°F)</span>
-                      </label>
-                  </div>
-                </div>
-                <div class="languageSelect">
-                  <h3>언어</h3>
-                  <div class="languageOption">
-                      <label>
-                        <input type="radio" name="language" value="ko" checked >
-                        <span>한국어</span>
-                      </label>
-                      <label>
-                        <input type="radio" name="language" value="en" >
-                        <span>English</span>
-                      </label>
-                  </div>
-                </div>
-                <div class="bgcSelect">
-                  <h3>배경</h3>
-                  <div class="bgcOption">
-                    <label>
-                        <input type="radio" name="bgc" value="gray" >
-                        <span></span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bgc" value="green" checked>
-                        <span></span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bgc" value="blue" >
-                        <span></span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bgc" value="purple" >
-                        <span></span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bgc" value="yellow" >
-                        <span></span>
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="setBtn">
-                  <button>저장</button>
-              </div>
-          </div>
         </div>
-  </article>
+    </article>
 
-    
+
 </body>
+
 </html>
