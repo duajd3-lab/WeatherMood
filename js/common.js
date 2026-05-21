@@ -42,8 +42,7 @@ if(sessionStorage.ani){
 
 // <!-------------------------- 날씨 api -------------------------->
 let weatherBarFun=function(){
-  console.log(1212);
-  
+    
     const serviceKey = "wdHUMVHHQP8PTCqieskq57%2Fq1PuW0Mw5VDJu1NscK56NMphWzBjzgYA6ow8DcmR5zs0pyITnyXqMWfUKyBdSCg%3D%3D";
     const nx = 61;
     const ny = 131;
